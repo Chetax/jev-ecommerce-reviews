@@ -1,0 +1,11 @@
+{
+  "_comment": "Quality gates for `jev-reviews eval`. Raise them as your labeled data grows. null disables a check.",
+  "max_error_rate": 0.0,
+  "min_all_fields_accuracy": 0.75,
+  "min_field_accuracy": {"topic": 0.85, "sentiment": 0.85, "defect": 0.85, "refund_request": 0.85},
+  "max_ece": 0.15,
+  "max_confident_wrong_rate": 0.05,
+  "max_must_pass_failures": 0,
+  "max_cost_per_1k_usd": null,
+  "max_latency_p95_ms": null
+}

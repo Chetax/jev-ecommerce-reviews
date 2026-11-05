@@ -1,0 +1,49 @@
+review_id,text,topic,sentiment,defect,refund_request
+R001,The blender motor died after two uses. Want my money back.,product_quality,negative,true,true
+R002,"Absolutely love this jacket, warm and well stitched.",product_quality,positive,false,false
+R003,Headphones crackle in the left ear out of the box. Requesting a replacement.,product_quality,negative,true,true
+R004,"Solid kettle, boils fast, does what it says.",product_quality,positive,false,false
+R005,The zipper broke the first week. Disappointing but I'll live with it.,product_quality,negative,true,false
+R006,"Battery life is okay, nothing special.",product_quality,neutral,false,false
+R007,"Screen had a dead pixel cluster on arrival, returning it.",product_quality,negative,true,true
+R008,"Sturdy chair, assembled in 20 minutes, very comfortable.",product_quality,positive,false,false
+R009,Shoes run a full size small. Had to send them back for a bigger pair.,sizing_fit,negative,false,true
+R010,"Fits true to size, great length for tall people.",sizing_fit,positive,false,false
+R011,The dress is way too tight around the waist compared to the chart.,sizing_fit,negative,false,false
+R012,"Sizing is a bit generous, I'd size down, but it's fine.",sizing_fit,neutral,false,false
+R013,"Ordered a medium, fits like an XL. Returning for a refund.",sizing_fit,negative,false,true
+R014,"Perfect fit on my 13-inch laptop, snug sleeve.",sizing_fit,positive,false,false
+R015,Package arrived 12 days late and tracking never updated.,shipping_delivery,negative,false,false
+R016,Arrived a day early! Super quick shipping.,shipping_delivery,positive,false,false
+R017,Courier says delivered but nothing at my door. I want a refund.,shipping_delivery,negative,false,true
+R018,Delivery was within the estimated window.,shipping_delivery,neutral,false,false
+R019,"Shipping took three weeks, never ordering from this seller again.",shipping_delivery,negative,false,false
+R020,"Fast delivery, product exactly as described.",shipping_delivery,positive,false,false
+R021,Box was completely crushed and the mug inside was shattered. Need a replacement.,packaging,negative,true,true
+R022,"Nicely packaged, would make a great gift.",packaging,positive,false,false
+R023,Way too much plastic packaging for such a small item.,packaging,negative,false,false
+R024,"Packaging was plain, item was protected well enough.",packaging,neutral,false,false
+R025,Bottle leaked all over the box because the cap wasn't sealed.,packaging,negative,true,false
+R026,"Eco-friendly packaging, love that it's all recyclable.",packaging,positive,false,false
+R027,I ordered blue and received pink. Please send the right one.,wrong_item,negative,false,true
+R028,Got a completely different phone case model than the one pictured.,wrong_item,negative,false,false
+R029,The set was missing two of the six glasses. Want the missing ones or my money back.,wrong_item,negative,false,true
+R030,Received the 64GB version instead of 128GB. Returning it.,wrong_item,negative,false,true
+R031,"Wrong colour arrived but honestly I like it more, keeping it.",wrong_item,positive,false,false
+R032,Instructions were in the box but the screws were missing.,wrong_item,negative,false,false
+R033,Support never answered my three emails about a return.,customer_service,negative,false,true
+R034,The seller replied within an hour and sorted everything out. Great service.,customer_service,positive,false,false
+R035,"Return process was straightforward, refund showed up in 5 days.",customer_service,positive,false,false
+R036,Customer service was polite but couldn't help.,customer_service,neutral,false,false
+R037,Chat agent was rude and hung up on me.,customer_service,negative,false,false
+R038,Had to call four times to get my exchange processed. Exhausting.,customer_service,negative,false,false
+R039,Way overpriced for what you get.,price_value,negative,false,false
+R040,"Amazing value, half the price of the brand-name one and just as good.",price_value,positive,false,false
+R041,I was charged twice for this order. Refund the duplicate charge please.,price_value,negative,false,true
+R042,Price is fair for the quality.,price_value,neutral,false,false
+R043,"Bought it on sale, steal of a deal.",price_value,positive,false,false
+R044,"Price went up the day after I bought it, then down again. Weird.",price_value,neutral,false,false
+R045,It's a phone charger. It charges my phone.,other,neutral,false,false
+R046,"Bought this as a gift for my dad, he hasn't opened it yet.",other,neutral,false,false
+R047,Five stars!!!,other,positive,false,false
+R048,Meh.,other,neutral,false,false

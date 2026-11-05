@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+service_account.json
+reports/*.json
+reports/*.csv
+!reports/.gitkeep
+reports/app.db*
+reports/*.txt
