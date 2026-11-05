@@ -1,0 +1,33 @@
+[project]
+name = "jev-ecommerce-reviews"
+version = "0.1.0"
+description = "E-commerce review classification with TypeSafe's Jev: Google Sheets -> typed decisions -> BI dashboard, benchmarked on Amazon Bedrock."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+    "anthropic[bedrock]>=2.5",  # boto3 for SigV4 auth with normal AWS credentials
+    "pydantic>=2.0",
+    "opentelemetry-api>=1.20",  # no-op unless tracing is configured
+]
+
+[project.optional-dependencies]
+sheets = ["gspread>=6.0", "google-auth>=2.29"]
+app = ["fastapi>=0.115", "uvicorn[standard]>=0.30"]
+dev = ["pytest>=8.0", "httpx>=0.27", "opentelemetry-sdk>=1.20"]
+observe = ["arize-phoenix-otel>=0.10", "openinference-semantic-conventions>=0.1.20"]
+
+[project.scripts]
+jev-reviews = "jev_reviews.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jev_reviews"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
